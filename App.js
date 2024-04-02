@@ -1,7 +1,7 @@
 import { SafeAreaView, StatusBar, StyleSheet } from 'react-native';
 import { NavigationContainer } from '@react-navigation/native';
 import { createNativeStackNavigator } from '@react-navigation/native-stack';
-import Home from './src/screens/Home';
+import Inicio from './src/screens/Inicio';
 
 const Stack = createNativeStackNavigator();
 
@@ -10,8 +10,8 @@ export default function App() {
     <SafeAreaView style={styles.container}>
       <StatusBar />
       <NavigationContainer>
-        <Stack.Navigator initialRouteName='Home'>
-          <Stack.Screen name='Home' component={Home} options={{ headerShown: false }} />
+        <Stack.Navigator initialRouteName='Inicio'>
+          <Stack.Screen name='Inicio' component={Inicio} options={{ headerShown: false }} />
         </Stack.Navigator>
       </NavigationContainer>
     </SafeAreaView>

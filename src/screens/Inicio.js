@@ -2,7 +2,7 @@ import React from 'react';
 import { View, Text, StyleSheet, Image, Pressable } from 'react-native';
 import ImageHome from '../../assets/home.png'
 
-export default function Home() {
+export default function Inicio() {
   return (
     <View style={styles.container}>
       <Image source={ImageHome} style={styles.imagem}/>
